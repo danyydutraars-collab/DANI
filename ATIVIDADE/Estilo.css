@@ -1,0 +1,37 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #474747;
+	background-color: black;
+}
+#container{
+	margin: 0 auto;
+	background-color: white;
+	width: 50%;
+	border-radius: 20px;
+	padding: 20px;
+}
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+}	
+tr:hover{
+	background-color: white;
+}
+td {
+	border-collapse: collapse;
+	border-bottom: 2px solid rgb(231, 231, 231);
+	padding: 8px;
+}
+th {
+	border-collapse: collapse;
+	border-bottom: 2px solid rgb(231, 231, 231);
+	padding: 8px;
+	background-color: rgb(237 237 237);
+	height: 30px;}
+
+.posicionar {
+	color: rgb(0, 0, 152);
+	background-color: #ebfaff;
+}
