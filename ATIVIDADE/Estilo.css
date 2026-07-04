@@ -14,3 +14,94 @@
 	color: #ae3737;
 	background-color: #ffe9e9;
 }
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #474747;
+	background-color: #000000;
+}
+td image {
+	width: 30px;
+	height: 30px;
+}
+container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+tr:hover {
+	background-color: #f2f2f2;
+}
+
+td {border-collapse: collapse;
+border: bottom 2px solid rgb(231, 231, 231);
+padding: 8px;
+}
+th {
+	border-collapse: collapse;
+	border: bottom 2px solid rgb(231, 231, 231);
+	padding: 8px;
+	background-color: rgb(237, 237, 237);
+	height: 30px;
+}
+table tr td:first-child + td {
+	text-align: left;
+}
+table tr th:first-child + th {
+	text-align: left;
+}
+table caption {
+	font-size: bold;
+	font-weight: 24px;
+	margin-bottom: 20px;
+}
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+#legenda {
+	width: 90px;
+	margin: 0 auto;
+	height: 40px;
+	margin-top: 20px;
+}
+#legenda div {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 10px;
+}
+#legenda span {
+	margin-left: 5px;
+	float: left;
+	margin-left: 5px;
+}
+#leglibertadores {
+	border: 1px solid rgb(0, 0, 152);
+	background-color: #ebfaff;
+}
+#legLibertadores + span {
+	color: rgb(0, 0, 152);			
+}
+
+#legPreLibertadores {
+	border: 1px solid #029c9c;
+	background-color: lightcyan;
+}
+#legPreLibertadores + span {
+	color: #029c9c;			
+}
+
+#legSulamericana {
+	border: 1px solid #234e23;
+	background-color: #ebffeb;
+}
+#legSulamericana + span {
+	color: #234e23;			
+}
+#legRebaixamento {
+	border: 1px solid #ae3737;
+	background-color: #ffe9e9;
+}
+#legRebaixamento + span {
+	color: #ae3737;			
+}
