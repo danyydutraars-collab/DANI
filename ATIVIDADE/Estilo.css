@@ -1,6 +1,16 @@
-
-
-.posicionar {
+.posição1e4 {
 	color: rgb(0, 0, 152);
 	background-color: #ebfaff;
+}
+.posição5e6 {
+	color: #029c9c;
+	background-color: lightcyan;
+}
+.posição7e12 {
+	color: #234e23;
+	background-color: #ebffeb;
+}
+.posição17e20 {
+	color: #ae3737;
+	background-color: #ffe9e9;
 }
