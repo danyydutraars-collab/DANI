@@ -17,7 +17,7 @@ table{
 	text-align: center;
 }	
 tr:hover{
-	background-color: white;
+	background-color: rgb(136, 133, 133);
 }
 td {
 	border-collapse: collapse;
