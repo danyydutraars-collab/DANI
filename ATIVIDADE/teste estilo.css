@@ -1,3 +1,51 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #474747;
+	background-color: black;
+}
+#container{
+	margin: 0 auto;
+	background-color: white;
+	width: 50%;
+	border-radius: 20px;
+	padding: 20px;
+}
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+}	
+tr:hover{
+	background-color: white;
+}
+td {
+	border-collapse: collapse;
+	border-bottom: 2px solid rgb(231, 231, 231);
+	padding: 8px;
+}
+th {
+	border-collapse: collapse;
+	border-bottom: 2px solid rgb(231, 231, 231);
+	padding: 8px;
+	background-color: rgb(237 237 237);
+	height: 30px;
+}
+table tr td:first-child + td {
+	text-align: left;
+}
+table tr th:first-child + th{
+	text-align: left;
+}
+table caption {
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+td img {
+	width: 30px;
+	height: 30px;
+}
 .posição1e4 {
 	color: rgb(0, 0, 152);
 	background-color: #ebfaff;
@@ -14,68 +62,31 @@
 	color: #ae3737;
 	background-color: #ffe9e9;
 }
-body {
-	font-family: Arial, Helvetica, sans-serif;
-	color: #474747;
-	background-color: #000000;
-}
-td image {
-	width: 30px;
-	height: 30px;
-}
-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	}
-tr:hover {
-	background-color: #f2f2f2;
-}
-
-td {border-collapse: collapse;
-border: bottom 2px solid rgb(231, 231, 231);
-padding: 8px;
-}
-th {
-	border-collapse: collapse;
-	border: bottom 2px solid rgb(231, 231, 231);
-	padding: 8px;
-	background-color: rgb(237, 237, 237);
-	height: 30px;
-}
-table tr td:first-child + td {
-	text-align: left;
-}
-table tr th:first-child + th {
-	text-align: left;
-}
-table caption {
-	font-size: bold;
-	font-weight: 24px;
-	margin-bottom: 20px;
-}
-h2 {
+h2{
 	text-align: center;
 	margin-bottom: 20px;
 }
 #legenda {
-	width: 90px;
+	width: 90%;
 	margin: 0 auto;
 	height: 40px;
 	margin-top: 20px;
 }
-#legenda div {
+
+#legenda > div {
 	width: 20px;
 	height: 20px;
 	float: left;
 	margin-left: 10px;
 }
-#legenda span {
+
+#legenda > span {
 	margin-left: 5px;
 	float: left;
-	margin-left: 5px;
+	line-height: 24px;
 }
-#leglibertadores {
+
+#legLibertadores {
 	border: 1px solid rgb(0, 0, 152);
 	background-color: #ebfaff;
 }
