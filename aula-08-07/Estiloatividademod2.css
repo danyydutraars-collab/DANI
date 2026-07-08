@@ -1,0 +1,50 @@
+*{
+
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  color:white
+}
+html{
+  background-color: lightblue;
+}
+body{
+  margin:0 auto;
+  background-color: white;
+}
+
+header{
+  background-color: #003f5c;
+  grid-area: header;
+}
+#menuPrincipal{
+  background-color: #444e86;
+  grid-area:menu1;
+}
+#menuSecundario{
+  background-color: #955196;
+  grid-area:menu2;
+}
+main{
+  background-color: #dd5182;
+  grid-area: areaP;
+}
+aside{
+  background-color: #ff6e54;
+  grid-area: areaS;
+}
+footer{
+  background-color: #ffa600;
+  grid-area: footer;
+}
+body {
+   width: 100vw;
+      height: 100vh;
+      display:grid;
+      grid-template-areas:"header header header header"
+                          "menu1  areaP  areaS  menu2"
+                          "footer footer footer footer";
+    grid-template-rows:200px auto auto 60px ;
+    grid-template-columns: 200px 200px auto 150px;
+    
+}
